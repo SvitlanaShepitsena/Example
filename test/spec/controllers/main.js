@@ -12,6 +12,7 @@ describe('Controller: MainCtrl', function () {
     beforeEach(inject(function ($controller, $rootScope) {
         scope = $rootScope.$new();
         MainCtrl = $controller('MainCtrl', {
+
             $scope: scope
         });
     }));
